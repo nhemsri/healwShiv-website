@@ -2465,6 +2465,25 @@ input, select, textarea {
 
 /* List */
 
+	/*Hems*/
+	.two-columns {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+		gap: 20px; /* Space between columns */
+		list-style: none; /* Remove bullet points */
+		padding: 0; /* Remove padding */
+		margin: 0; /* Remove margin */
+	}
+
+	
+
+	.two-columns .icon {
+		/*display: flex;*/
+		align-items: center;
+		gap: 10px; /* Add space between icon and text */
+	}
+
+	/*Hems end */
 	ol {
 		list-style: decimal;
 		margin: 0 0 2em 0;

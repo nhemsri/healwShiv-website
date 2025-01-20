@@ -3104,6 +3104,7 @@ input, select, textarea {
 				height: 40px; /* Adjust the height as needed */
 				width: auto;  /* Maintain aspect ratio */
 				vertical-align:middle;
+				background-color: #ffffff;
 
 			}
 			#header .logo {
@@ -3410,6 +3411,12 @@ input, select, textarea {
 			transform: translateY(0);
 			opacity: 1;
 			margin: 0 0 1.3em 0;
+			/*Hems*/
+			display: inline-block; /* Ensures the logo is treated as a block for styling */
+    		background-color: #ffffff; /* Set the background color */
+    		padding: 10px; /* Add space around the logo */
+    		border-radius: 50%; /* Optional: Creates a circular background */
+    		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow for depth */
 		}
 
 			#banner .logo .icon {
@@ -3429,6 +3436,7 @@ input, select, textarea {
 				width: 150px;  /* Adjust as needed */
 				height: auto;
 				opacity: 1;
+				
 			  }
 
 		#banner h2 {
